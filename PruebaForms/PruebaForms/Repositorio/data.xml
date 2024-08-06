@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Data>
+  <Cliente>
+    <ID>1</ID>
+    <Nombre>John</Nombre>
+    <Apellido>Doe</Apellido>
+    <Email>johndoe@mail.com</Email>
+    <Teléfono>11111111</Teléfono>
+  </Cliente>
+  <Cliente>
+    <ID>2</ID>
+    <Nombre>Jane</Nombre>
+    <Apellido>Smith</Apellido>
+    <Email>janesmith@mail.com</Email>
+    <Teléfono>22222222</Teléfono>    
+  </Cliente>
+  <Cliente>
+    <ID>3</ID>
+    <Nombre>Cliente</Nombre>
+    <Apellido>Tres</Apellido>
+    <Email>clientetres@mail.com</Email>
+    <Teléfono>33333333</Teléfono>
+  </Cliente>
+  <Cliente>
+    <ID>4</ID>
+    <Nombre>Cliente</Nombre>
+    <Apellido>Cuatro</Apellido>
+    <Email>clientecuatro@mail.com</Email>
+    <Teléfono>44444444</Teléfono>
+  </Cliente>
+  <Cliente>
+    <ID>5</ID>
+    <Nombre>Cliente</Nombre>
+    <Apellido>Cinco</Apellido>
+    <Email>clientecinco@mail.com</Email>
+    <Teléfono>55555555</Teléfono>
+  </Cliente>
+</Data>
