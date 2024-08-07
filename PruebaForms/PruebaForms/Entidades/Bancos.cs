@@ -8,5 +8,8 @@ namespace PruebaForms.Entidades
 {
     internal class Bancos
     {
+        private int saldoCliente;
+
+    
     }
 }
