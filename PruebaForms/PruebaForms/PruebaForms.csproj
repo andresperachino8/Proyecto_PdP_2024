@@ -12,4 +12,10 @@
     <Folder Include="Lógica\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="Interfaz\datosProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+
 </Project>

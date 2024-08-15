@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PruebaForms
+namespace PruebaForms.Interfaz
 {
     public partial class datosClientes : Form
     {
@@ -20,10 +20,11 @@ namespace PruebaForms
         private void datosClientes_Load(object sender, EventArgs e)
         {
             DataSet dataSet = new DataSet();
-            dataSet.ReadXml("C:\\Users\\Andrés Perachino\\Desktop\\PruebaForms\\PruebaForms\\Repositorio\\data.xml");
+            dataSet.ReadXml(@"..\\PruebaForms\\PruebaForms\\Repositorio\\datosClientes.xml");
 
-            // Establecer el DataSource del DataGridView
-            dataGridView1.DataSource = dataSet.Tables[0];
+            dgvClientes.DataSource = dataSet.Tables[0];
         }
+
+        
     }
 }

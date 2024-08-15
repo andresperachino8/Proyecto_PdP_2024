@@ -1,4 +1,4 @@
-﻿namespace PruebaForms
+﻿namespace PruebaForms.Interfaz
 {
     partial class datosClientes
     {
@@ -28,33 +28,62 @@
         /// </summary>
         private void InitializeComponent()
         {
-            dataGridView1 = new DataGridView();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            dgvClientes = new DataGridView();
+            lblClientes = new Label();
+            btnResumen = new Button();
+            ((System.ComponentModel.ISupportInitialize)dgvClientes).BeginInit();
             SuspendLayout();
             // 
-            // dataGridView1
+            // dgvClientes
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(12, 12);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.Size = new Size(543, 336);
-            dataGridView1.TabIndex = 4;
+            dgvClientes.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvClientes.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
+            dgvClientes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvClientes.Location = new Point(12, 63);
+            dgvClientes.Name = "dgvClientes";
+            dgvClientes.Size = new Size(722, 228);
+            dgvClientes.TabIndex = 0;
+            // 
+            // lblClientes
+            // 
+            lblClientes.AutoSize = true;
+            lblClientes.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblClientes.Location = new Point(269, 9);
+            lblClientes.Name = "lblClientes";
+            lblClientes.Size = new Size(182, 30);
+            lblClientes.TabIndex = 1;
+            lblClientes.Text = "Datos de Clientes";
+            // 
+            // btnResumen
+            // 
+            btnResumen.Location = new Point(12, 297);
+            btnResumen.Name = "btnResumen";
+            btnResumen.Size = new Size(130, 23);
+            btnResumen.TabIndex = 2;
+            btnResumen.Text = "Resumen de Cuenta";
+            btnResumen.UseVisualStyleBackColor = true;
             // 
             // datosClientes
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(566, 364);
-            Controls.Add(dataGridView1);
+            AutoSize = true;
+            ClientSize = new Size(746, 332);
+            Controls.Add(btnResumen);
+            Controls.Add(lblClientes);
+            Controls.Add(dgvClientes);
             Name = "datosClientes";
-            Text = "datosClientes";
+            Text = "Datos de Clientes";
             Load += datosClientes_Load;
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvClientes).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
-        private DataGridView dataGridView1;
+        private DataGridView dgvClientes;
+        private Label lblClientes;
+        private Button btnResumen;
     }
 }

@@ -5,8 +5,41 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace PruebaForms.Entidades
-{
-    internal class Bancos
     {
+        internal class Bancos
+        {
+            public int Id { get; set; }
+            public string Titular { get; set; } // Puede ser cliente, proveedor o empresa
+            public decimal Saldo { get; private set; }
+
+            // Constructor
+            public Bancos(int id, string titular, decimal saldoInicial)
+            {
+                Id = id;
+                Titular = titular;
+                Saldo = saldoInicial;
+            }
+
+            // Método para agregar dinero a la cuenta
+            public void Depositar(decimal monto)
+            {
+                if (monto > 0)
+                {
+                    Saldo += monto;
+                }
+            }
+
+            // Método para extraer dinero de la cuenta
+            public bool Extraer(decimal monto)
+            {
+                if (monto <= Saldo)
+                {
+                    Saldo -= monto;
+                    return true;
+                }
+                return false;
+            }
+        }
+
     }
-}
+

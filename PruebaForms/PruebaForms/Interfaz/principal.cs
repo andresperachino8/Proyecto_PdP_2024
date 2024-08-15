@@ -1,3 +1,5 @@
+using PruebaForms.Interfaz;
+
 namespace PruebaForms
 {
     public partial class principal : Form
@@ -8,11 +10,10 @@ namespace PruebaForms
             InitializeComponent();
         }
 
-        private void altaClienteToolStripMenuItem_Click(object sender, EventArgs e)
+        private void tsmClientes_Click(object sender, EventArgs e)
         {
-            abmClientes abmClientes = new abmClientes();
-
-            abmClientes.Show();
+            datosClientes datosClientes = new datosClientes();
+            datosClientes.Show();
 
         }
 
@@ -24,6 +25,12 @@ namespace PruebaForms
         private void tsSalir_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void tsmProvedoores_Click(object sender, EventArgs e)
+        {
+            datosProveedores datosProveedores = new datosProveedores();
+            datosProveedores.Show();
         }
     }
 }

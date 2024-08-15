@@ -1,0 +1,62 @@
+<clientes>
+    <cliente>
+        <id>001</id>
+        <nombre>Laura García</nombre>
+        <email>laura.garcia@gmail.com</email>
+        <telefono>+1-555-678-1234</telefono>
+    </cliente>
+    <cliente>
+        <id>002</id>
+        <nombre>Jorge Martínez</nombre>
+        <email>jorge.martinez@yahoo.com</email>
+        <telefono>+1-555-789-2345</telefono>
+    </cliente>
+    <cliente>
+        <id>003</id>
+        <nombre>Elena Ruiz</nombre>
+        <email>elena.ruiz@outlook.com</email>
+        <telefono>+1-555-890-3456</telefono>
+    </cliente>
+    <cliente>
+        <id>004</id>
+        <nombre>Ricardo Fernández</nombre>
+        <email>ricardo.fernandez@hotmail.com</email>
+        <telefono>+1-555-901-4567</telefono>
+    </cliente>
+    <cliente>
+        <id>005</id>
+        <nombre>Sofía Morales</nombre>
+        <email>sofia.morales@gmail.com</email>
+        <telefono>+1-555-012-5678</telefono>
+    </cliente>
+    <cliente>
+        <id>006</id>
+        <nombre>Alberto Jiménez</nombre>
+        <email>alberto.jimenez@gmail.com</email>
+        <telefono>+1-555-345-6789</telefono>
+    </cliente>
+    <cliente>
+        <id>007</id>
+        <nombre>Paula Torres</nombre>
+        <email>paula.torres@yahoo.com</email>
+        <telefono>+1-555-456-7890</telefono>
+    </cliente>
+    <cliente>
+        <id>008</id>
+        <nombre>Daniel Sánchez</nombre>
+        <email>daniel.sanchez@outlook.com</email>
+        <telefono>+1-555-567-8901</telefono>
+    </cliente>
+    <cliente>
+        <id>009</id>
+        <nombre>Isabel Castillo</nombre>
+        <email>isabel.castillo@hotmail.com</email>
+        <telefono>+1-555-678-9012</telefono>
+    </cliente>
+    <cliente>
+        <id>010</id>
+        <nombre>Felipe Rojas</nombre>
+        <email>felipe.rojas@gmail.com</email>
+        <telefono>+1-555-789-0123</telefono>
+    </cliente>
+</clientes>
